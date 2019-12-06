@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.0"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.socialclub"
         minSdkVersion 15
@@ -24,24 +24,24 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:26.0.0'
-    compile 'com.android.support:design:26.+'
-    testCompile 'junit:junit:4.12'
-    compile 'com.github.delight-im:Android-AdvancedWebView:v3.0.0'
-    compile 'com.onesignal:OneSignal:3.+@aar'
-    compile 'com.nex3z:notification-badge:0.1.0'
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support:design:26.+'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.github.delight-im:Android-AdvancedWebView:v3.0.0'
+    implementation 'com.onesignal:OneSignal:3.+@aar'
+    implementation 'com.nex3z:notification-badge:0.1.0'
 
     // Required for OneSignal, even if you have added FCM.
-    compile 'com.google.android.gms:play-services-gcm:+'
+    implementation 'com.google.android.gms:play-services-gcm:+'
 
     // Required for geotagging
-    compile "com.google.android.gms:play-services-location:+"
+    implementation "com.google.android.gms:play-services-location:+"
 
     // play-services-analytics is only needed when using 8.1.0 or older.
-    // compile 'com.google.android.gms:play-services-analytics:+'
+    // implementation 'com.google.android.gms:play-services-analytics:+'
 
 }
