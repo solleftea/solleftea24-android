@@ -1,4 +1,4 @@
-package com.bitilly;
+package com.socialclub;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -33,7 +33,7 @@ public class MainActivity extends Activity implements AdvancedWebView.Listener {
     //SwipeRefreshLayout mSwipeRefreshLayout;
     //ProgressDialog progressBar;
 
-    private static final String URL = "https://bitilly.com/";
+    private static final String URL = "https://socialclub.rockstargames.com/";
 
     View ivSplash, ivError;
 

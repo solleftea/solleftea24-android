@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bitilly">
+    package="com.socialclub">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.webkit.PermissionRequest" />
@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.bitilly.MainActivity"
+            android:name="com.socialclub.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize|keyboard"
             >
             <intent-filter>
