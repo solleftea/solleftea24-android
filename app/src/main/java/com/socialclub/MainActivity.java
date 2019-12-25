@@ -1,4 +1,4 @@
-package com.socialclub;
+package com.solleftea24;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -33,7 +33,7 @@ public class MainActivity extends Activity implements AdvancedWebView.Listener {
     //SwipeRefreshLayout mSwipeRefreshLayout;
     //ProgressDialog progressBar;
 
-    private static final String URL = "https://socialclub.rockstargames.com/";
+    private static final String URL = "https://solleftea24.se/";
 
     View ivSplash, ivError;
 

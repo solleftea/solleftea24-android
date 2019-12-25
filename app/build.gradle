@@ -4,16 +4,16 @@ android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
     defaultConfig {
-        applicationId "com.socialclub"
+        applicationId "com.solleftea24"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        manifestPlaceholders = [onesignal_app_id: "bb14cd57-a246-44c2-89bd-d9d6473ca799",
+        manifestPlaceholders = [onesignal_app_id: "xx",
                                 // Project number pulled from dashboard, local value is ignored.
-                                onesignal_google_project_number: "733517555255"]
+                                onesignal_google_project_number: "xx"]
     }
     buildTypes {
         release {
